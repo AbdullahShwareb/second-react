@@ -1,0 +1,38 @@
+.contact {
+    background-color: #fff;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    font-size: 1rem;
+}
+
+.input:focus,
+.textarea:focus {
+    border-color: #1abc9c;
+}
+
+.button {
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #159d82;
+}

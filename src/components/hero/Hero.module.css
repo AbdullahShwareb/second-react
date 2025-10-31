@@ -1,0 +1,29 @@
+.hero {
+    background-color: #1abc9c;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroImg {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid #fff;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 10px;
+}

@@ -1,0 +1,24 @@
+.about {
+    background-color: #1abc9c;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.about p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.about .btn-outline-light {
+    border: 2px solid #fff;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.about .btn-outline-light:hover {
+    background-color: #fff;
+    color: #1abc9c;
+}
